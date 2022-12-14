@@ -1,5 +1,5 @@
 import { tweetsData } from './data.js'
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+import { v4 as uuidv4 } from 'uuid';
 
 document.addEventListener('click', function(e){
     // hide the delete button if somewhere else is clicked
